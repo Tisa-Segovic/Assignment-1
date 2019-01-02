@@ -1,0 +1,45 @@
+/* style4.css */
+
+body {
+	font-family: Georgia;
+	background-color: #faf0e6;
+}
+
+.container {
+ width: 1000px;
+}
+
+p::first-letter {
+    color: #010000;
+    font-size: xx-large;
+}
+
+div.main {
+	border: 5px solid #8B0000;
+	padding: 5px;
+    line-height: 17px;
+	text-align: center;
+}
+
+.fancy {
+  position: relative;
+  background-color: #F7F9F8;
+  padding: 2rem;
+  text-align: center;
+  max-width: 860px;
+}
+
+.fancy::before {
+  content: "";
+
+  position : absolute;
+  z-index  : -1;
+  bottom   : 15px;
+  right    : 5px;
+  width    : 50%;
+  top      : 80%;
+  max-width: 200px;
+
+  box-shadow: 0px 13px 10px black;
+  transform: rotate(4deg);
+}

@@ -1,0 +1,53 @@
+/* style3.css */
+
+body{
+	font-family: Georgia;	
+	background-color:#faf0e6;
+}
+
+.container {
+ 	width: 1000px;
+}
+
+p::first-letter {
+    color: #010000;
+    font-size: xx-large;
+}
+
+div.main {
+	border: 3px solid #8B0000;
+	padding: 5px;
+	background-color: #faf0e6;
+	opacity: 0.7;
+	line-height: 27px;
+	float: center;
+	text-align:center;
+}
+
+iframe {      
+    float:right;    
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://dx0woejilafh2.cloudfront.net/sys-master/m0/MM/2018/2/1016118306/001/s3master/1016118306001-a-teddy_normal.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+  	display: flex;
+  	width: 500px;   		
+}
+
+.column {
+  	flex: 33.33%;
+  	padding: 5px;  	
+}

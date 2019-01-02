@@ -1,0 +1,26 @@
+/* style1.css */
+
+
+body {
+	font-family: Georgia;
+	background-color: #faf0e6;
+}
+
+p::first-letter {
+    color: #010000;
+    font-size: xx-large;
+}
+
+.container {
+ width: 1000px;
+}
+
+div.main {
+	border: 3px solid #8B0000;
+	padding: 5px;
+	
+	margin-left: 20px;
+	float:right;
+	text-align:center;
+}
+

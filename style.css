@@ -1,26 +1,5 @@
 /* style.css */
 
-a:link {
-	color: grey;
-	background-color: transparent;
-	text-decoration: none;
-}
-a:visited {
-	color: black;
-	background-color: transparent;
-	text-decoration: none;
-}
-a:hover {
-	color: red;
-	background-color: transparent;
-	text-decoration: underline;
-}
-a:active {
-	color: yellow;
-	background-color: transparent;
-	text-decoration: underline;
-}
-
 body {
 	font-family: Georgia;
 	background-color: #faf0e6;
@@ -30,14 +9,13 @@ div.container {
  width: 1000px;
 }
 
-#wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+p::first-letter {
+    color: #010000;
+    font-size: xx-large;
 }
 
 input[type=text] {
-    width: 35%;
+    width: 50%;
     padding: 6px 10px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -46,14 +24,31 @@ input[type=text] {
     border-radius: 4px;
 }
 
-input[type=password] {
-    width: 35%;
+input[type=email]{
+    width: 50%;
     padding: 6px 10px;
     margin: 8px 0;
     box-sizing: border-box;
     
+    color: solid #010000;
     border: 2px solid #8B0000;
     border-radius: 4px;
+}
+
+input[type=date]{
+	color: solid #010000;
+	border: 2px solid #8B0000;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+	background-color: #8B0000;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 textarea{
@@ -62,25 +57,5 @@ textarea{
     border-radius: 4px;
 }
 
-.signup{
-	background-color: #8f3423;
-	border-radius: 50%;
-    border: 0.3;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 
-.login{
-	background-color: #8f3423;
-	border-radius: 50%;
-    border: 0.3;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 
