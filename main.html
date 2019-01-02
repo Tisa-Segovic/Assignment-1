@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>	
+		<meta charset="utf-8">
+		<meta name="JQuery & PHP" content="A page for learning how to code with both!">
+		
+		<title>"Main Page"</title>	
+	
+	 	<link rel = "stylesheet"
+	   	type = "text/css"
+	  	href = "style.css" />		
+	</head>
+  
+  	<div id="wrap"><body>
+ 
+  		<div class="container">
+  	
+  		<header>
+  			<h1 id="special">Welcome Back!</h1>
+  		</header>
+  		
+  		<nav>
+	  		<a href="../MAIN/index.html"><b>Welcome Back!</b></a> |
+	  		<a href="../MAIN/index.html">Home</a> |
+	  		<a href="../Assignment4.2/products.html">Product</a> |
+	  		<a href="../Page1/html1.html">7 New Shoppers</a> |
+	  		<a href="../Page2/html2.html">Maddenig Boots</a> |
+	  		<a href="../Page3/html3.html">Max Mara Teddy Coat</a> |
+	  		<a href="../Page4/html4.html">Skirt Domination</a> |
+  		</nav>
+  		
+  		<h4><u>If you have not already, please sign-up (create your account) here:</u></h4>
+  		<form action="signup.php" method="post">
+	  		First name: <br>
+	  		<input type="text" name="username" placeholder="username" id="username"><br>
+	  		Password: <br>
+	  		<input type="password" name="password" placeholder="password" id="password"><br>
+	  		<input type="submit" value="Sign Up" class="submit"><br>
+  		</form>
+  		
+  		<br>
+  		
+  		<h4><u>If you already have an existing account, please log-in here:</u></h4>
+  		<form action="login.php" method="post">
+  			First name: <br>
+  			<input type="text" name="username" placeholder="username" id="username"><br>
+	  		Password: <br>
+	  		<input type="password" name="password" placeholder="password" id="password"><br>
+  			<input type="submit" name="submit" value="Log In" class="submit">
+  		</form>
+  		
+  		<br>
+  		
+  		<h4><u>If you are looking for something, search here:</u></h4>
+  		<form action="products.php" method="post">
+	  		<input type="text" name="searchtab" placeholder="search" id="searchtab"><br>
+	  		<input type="submit" name="submit" value="Search" class="submit">
+	  	</form>
+  		<!-- <button value="submit" name="search"> Search Here</button> -->
+		
+		<footer>
+		  <h6>Posted by: Tisa Segovic. Contact information: <a href="mailto:te557@stern.nyu.edu">te557@stern.nyu.edu.</a></h6>
+		</footer>
+		
+	</div>
+	
+	<script type="text/javascript"
+ 	src="asg4cart.js"></script>
+ 	
+ 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+	<script src="jquery.js"></script>
+ 	
+	</body></div>
+	
+</html>

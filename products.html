@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>	
+		<meta charset="utf-8">
+		<meta name="JavaScript & JQuery" content="A page for learning how to code better with both!">
+		
+		<title>"Product Shopping"</title>	
+	
+	 	<link rel = "stylesheet"
+	   	type = "text/css"
+	  	href = "style.css" />		
+	</head>
+  
+  	<div id="wrap"><body>
+ 
+  		<div class="container">
+  	
+  		<header>
+  			<h1 id="special">Buy Any Of The Products From Our Articles!</h1>
+  		</header>
+  		
+  		<nav>
+	  		<a href="../Assignment7/main.html">Welcome Back!</a> |
+	  		<a href="../MAIN/index.html">Home</a> |
+	  		<a href="../Assignment4.2/products.html"><b>Product</b></a> |
+	  		<a href="../Page1/html1.html">7 New Shoppers</a> |
+	  		<a href="../Page2/html2.html">Maddenig Boots</a> |
+	  		<a href="../Page3/html3.html">Max Mara Teddy Coat</a> |
+	  		<a href="../Page4/html4.html">Skirt Domination</a> |
+  		</nav>
+  		
+  		<h4><i>Here are all of the products from this week's newseller that you can purchase.</i></h4>
+  		<aside><div class="row">
+		
+			<div class="column">
+				<img class="imageedit" src="https://www.fashion.hr/easyedit/UserFiles/rwd_images/a-pfw-stella-16/_rwd_massimo-dutti-
+				1195-kn/massimo-dutti-1195-kn_840_472.jpeg" alt="Massimo Dutti Bag" width="260" height="280" 
+				align="left" vspace="20"/>
+			</div>
+			
+			<div class="column">
+				<img class="imageedit" src="https://www.fashion.hr/easyedit/UserFiles/rwd_images/a-pfw-stella-16/_rwd_mango
+				-99990-kn/mango-99990-kn_840_472.jpeg" alt="Mango Bag" width="330" height="280" align="middle" 
+				vspace="20"/>
+			</div>
+			
+			<div class="column">
+				<img class="imageedit" src="https://www.fashion.hr/easyedit/UserFiles/rwd_images/a-pfw-stella-16/
+				_rwd_saddy-crossbody-bag-s-plum-1899-kn/saddy-crossbody-bag-s-plum-1899-kn_840_472.jpeg" 
+				alt="Liebeskind Berlin Bag" width="250" height="280" align="right" vspace="20"/>			
+			</div>
+			
+		</div></aside>
+  		
+  		<aside><div class="imagetitle">
+			<a href="https://www.massimodutti.com/us/women/collection/bags-%26-wallets/view-all-c914508.html" target="_blank">
+			<i><b>Massimo Dutti</b></i></a>
+			<input type=number id=price1 value=133 readonly>
+			
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			   
+			<a href="https://shop.mango.com/us/women/bags_c18162733" target="_blank"><i><b>Mango</b></i></a> 
+			<input type=number id=price2 value=156 readonly>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			
+			
+			<a href="https://int.liebeskind-berlin.com/c/bags/handbags/" target="_blank"><i><b>Liebeskind Berlin</b></i></a>
+			<input type=number id=price3 value=353 readonly>
+		</div></aside>
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;
+		Quantity: <input type="number" name="bag1" id="bag1" min="0" max="5">
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Quantity: <input type="number" name="bag2" id="bag2" min="0" max="5">
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;
+		Quantity: <input type="number" name="bag3" id="bag3" min="0" max="5"><br><br>
+		
+		<fieldset style="width: 535px; border: 3px solid #8B0000; padding: 5px">
+			<b>- Subtotal</b> for the Massimo Dutti Bag: <div id="subtotal1"></div>
+			<b>- Subtotal</b> for the Mango Bag: <div id="subtotal2"></div>
+			<b>- Subtotal</b> for the Liebeskind Berlin Bag: <div id="subtotal3"></div>
+		</fieldset>
+		
+		<h3><i>Once you're done shopping for anything specific, please choose your desired shipping method.</i></h3>
+		
+ 		Shipping Amount You Would Like to Purchase: <input type="number" name="shipp" id="shipp" min="0" max="25"><br>
+ 		<ul>
+			<li id="one"><i>USPS - $10.00 USD.</i></li>
+			<li id="two"><i>UPS - $11.00 USD.</i></li>
+			<li id="three"><i>FedEx - $12.00 USD.</i></li>
+		</ul>	
+		
+		
+		<fieldset style="width: 535px; border: 3px solid #8B0000; padding: 5px">
+			<b>- Grandtotal</b> for your purchase would be: <div id="grandtotal"></div>
+		</fieldset>
+  		
+  		<h4><i>Please fill out the form below in order for us to process your
+  		order.</i></h4>
+  		
+  		<form action="#">
+		
+			<fieldset style="width: 535px; border: 3px solid #8B0000; padding: 5px">
+    			<legend>Customer Information Form</legend>
+				  First name:<br>
+				  <input type="text" name="firstname" placeholder="first"><br>
+				  
+				  Last name:<br>
+				  <input type="text" name="lastname" placeholder="last"><br>
+				  
+				  Credit Card ZIP code:<br>
+				  <input type=number name="zip" placeholder="zip code"><br>
+				  
+				  Email:<br>
+				  <input type="email" name="email" placeholder="email"><br>
+				  
+				  <br>Credit Card Type:<br>
+				  <input type="radio" name="cctype" value="Visa"> <i>Visa</i><br>
+				  <input type="radio" name="cctype" value="MasterCard"> <i>Mastercard</i><br>
+				  <input type="radio" name="cctype" value="AMEX"> <i>American Express</i><br>
+				  <input type="radio" name="cctype" value="Discover"> <i>Discover</i><br><br>
+				  
+				  Credit Card Number:<br>
+				  <input type="ccnumber" name="ccnumber" id="ccnumber" placeholder="card number"><br><br>
+				  
+				  Credit Card Expiration Date (<i>mm/yyyy</i>):<br>
+				  <input type="number" name="month" min="1" max="12">
+				  <input type="number" name="year" min="2000" max="2030"><br><br>
+				  
+				  Credit Card CCV (<i>on the back of the card</i>):<br>
+				  <input type="number" name="CCV" min="100" max="999"><br><br>
+
+				  Address (Apt #/ Suite, Street, City, State, Country):<br>
+				  <textarea rows="6" cols="50" placeholder="Example: Apt 9C,17 Stuyvesant Oval, NYC, NY, USA"></textarea><br>
+				  
+				  <br>
+				  <input type="submit" value="Checkout" class="submit" id="submit">
+				  <input type="reset" value="Reset" class="reset" id="reset">
+			  </fieldset>
+			  
+		</form>
+		
+		<h4>Here is your Receipt:</h4> 
+		<p class="output" id="output" style="color: red"></p>
+		
+		
+		<h5>Contact Us Through</h5>
+		<ul>
+			<li>Instagram</li>
+			<li>YouTube</li>
+		</ul>
+		
+		<footer>
+		  <h6>Posted by: Tisa Segovic. Contact information: <a href="mailto:te557@stern.nyu.edu">te557@stern.nyu.edu.</a></h6>
+		</footer>
+
+	</div>
+	
+	<script type="text/javascript"
+ 	src="asg4cart.js"></script>
+ 	
+ 	<script type="text/javascript"
+ 	src="creatingnodes.js"></script>
+ 	
+ 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+	<script src="jquery.js"></script>
+ 	
+	</body></div>
+	
+</html>
